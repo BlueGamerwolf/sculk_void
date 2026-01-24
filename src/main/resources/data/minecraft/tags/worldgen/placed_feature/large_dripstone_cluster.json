@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:placed_feature",
+  "feature": "minecraft:large_dripstone_cluster",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "world_surface"
+    }
+  ]
+}

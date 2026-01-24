@@ -1,0 +1,9 @@
+.gradle/
+.mcreator/
+.settings/
+bin/
+build/
+elements/
+gradle/
+run/
+.classpath

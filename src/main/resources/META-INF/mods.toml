@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="sculk_void"
+version="1.0.0"
+displayName="Sculk Void"
+displayURL="https://mcreator.net"
+credits="Create"
+authors="Blue_gamerwolf"
+
+[[dependencies.sculk_void]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

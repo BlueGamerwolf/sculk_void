@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.blue_gamerwolf.sculkvoid.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.sculk_void.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}

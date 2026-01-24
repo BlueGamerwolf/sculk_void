@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:sculk_patch",
+  "config": {
+    "charge_count": 24,
+    "amount_per_charge": 32,
+
+    "spread_attempts": 64,
+    "spread_rounds": 4,
+
+    "growth_rounds": 4,
+    "can_place_spreaders": true,
+
+    "catalyst_chance": 0.05,
+    "extra_rare_growths": true
+  }
+}

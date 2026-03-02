@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{altar_compass:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Altar",
+                "color": "dark_aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "It hums faintly with sculk energy...",
+                  "color": "dark_blue",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

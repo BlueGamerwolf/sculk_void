@@ -1,7 +1,0 @@
-{
-  "feature": "sculk_void:sculk_cluster",
-  "placement": [
-    { "type": "minecraft:in_square" },
-    { "type": "minecraft:count", "count": 6 }
-  ]
-}

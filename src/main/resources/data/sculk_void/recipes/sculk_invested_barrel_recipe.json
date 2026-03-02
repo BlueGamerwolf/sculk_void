@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sculk"
+    },
+    "b": {
+      "item": "sculk_void:sculk_ingot"
+    },
+    "c": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "sculk_void:sculk_invested_barrel",
+    "count": 1
+  }
+}

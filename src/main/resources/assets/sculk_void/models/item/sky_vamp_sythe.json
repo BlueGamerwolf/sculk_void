@@ -1,0 +1,7 @@
+{
+  "parent": "sculk_void:custom/sky_vamp_scythe",
+  "textures": {
+    "1": "sculk_void:block/sky_vamp_scythe",
+    "particle": "sculk_void:item/sky_vamp_scythe"
+  }
+}

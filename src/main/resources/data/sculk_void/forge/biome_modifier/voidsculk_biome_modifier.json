@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sculk_void:sculknull",
+  "features": "sculk_void:voidsculk",
+  "step": "underground_ores"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "sculk_void:lab/hallways",
+  "fallback": "sculk_void:lab/fallback",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/straight",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/stairs",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/joint_l",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/joint_t",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/joint_x",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/straight_room",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/storage/storage_down/laboratory_down",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    },{
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/hallways/joint_up_x",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

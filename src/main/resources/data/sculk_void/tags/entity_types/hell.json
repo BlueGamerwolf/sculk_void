@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "wither",
+    "blaze",
+    "wither_skeleton",
+    "hoglin",
+    "ghast",
+    "piglin",
+    "piglin_brute",
+    "zombified_piglin",
+    "enderman"
+  ]
+}

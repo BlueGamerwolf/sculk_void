@@ -1,0 +1,33 @@
+{
+    "name": "sculk_void:lab/treasure/chests",
+    "fallback": "empty",
+    "elements": [
+        {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "sculk_void:lab/rooms/loot/chests/chest_1",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+        },
+        {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "sculk_void:lab/rooms/loot/chests/chest_2",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+        },
+        {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "sculk_void:lab/rooms/loot/chests/chest_3",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+        }
+    ]
+}

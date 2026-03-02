@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "min": 5, "max": 15 },
+              "treasure": false
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "min": 15, "max": 30 },
+              "treasure": false
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "min": 25, "max": 40 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "min": 10, "max": 25 },
+              "treasure": false
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "min": 15, "max": 30 },
+              "treasure": false
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

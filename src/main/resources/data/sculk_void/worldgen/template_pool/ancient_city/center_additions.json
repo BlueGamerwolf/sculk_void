@@ -1,0 +1,15 @@
+{
+  "name": "sculk_void:ancient_city/center_additions",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:ancient_city/my_center",
+        "processors": "minecraft:ancient_city_start_degradation",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

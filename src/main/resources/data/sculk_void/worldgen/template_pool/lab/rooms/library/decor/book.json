@@ -1,0 +1,71 @@
+{
+    "name": "sculk_void:lab/rooms/library/decor/book",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor1",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor2",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor3",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+         },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor4",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+         },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor5",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor6",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor7",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/library/decor/groundfloor8",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

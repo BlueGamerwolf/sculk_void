@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 32,
+    "size": 2,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -10,7 +10,7 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "name": "sculk_void:sculkore"
+          "Name": "sculk_void:sculkore"
         }
       }
     ]

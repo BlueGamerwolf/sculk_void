@@ -1,0 +1,23 @@
+{
+	"name": "sculk_void:lab/rooms/loot/spawners/spider",
+	"fallback": "minecraft:empty",
+	"elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/loot/spider",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/loot/spider_cave",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]   
+}

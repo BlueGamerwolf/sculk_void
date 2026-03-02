@@ -1,0 +1,31 @@
+{
+	"name": "sculk_void:lab/rooms/spawners",
+	"fallback": "minecraft:empty",
+	"elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/spawners/zombie",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/spawners/skeleton",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/spawners/stray",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            }
+        }
+    ]   
+}

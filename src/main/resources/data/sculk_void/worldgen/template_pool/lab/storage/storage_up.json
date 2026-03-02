@@ -1,0 +1,15 @@
+{
+  "name": "sculk_void:lab/storage/storage_up/storage_up",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/storage/laboratory_up",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

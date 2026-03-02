@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sculk_void:block/barrel_back",
+    "up": "sculk_void:block/barrel_back",
+    "north": "sculk_void:block/barrel_back",
+    "east": "sculk_void:block/barrel_back",
+    "south": "sculk_void:block/barrel_back",
+    "west": "sculk_void:block/barrel_back",
+    "particle": "sculk_void:block/barrel_back"
+  },
+  "render_type": "solid"
+}

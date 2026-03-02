@@ -1,6 +1,10 @@
 {
   "type": "forge:add_features",
-  "biomes": "sculk_void:echo_caverns",
+  "biomes": [
+    "sculk_void:echo_caverns",
+    "sculk_void:lameland",
+    "sculk_void:blue_forest"
+  ],
   "features": "sculk_void:sculkore",
   "step": "underground_ores"
 }

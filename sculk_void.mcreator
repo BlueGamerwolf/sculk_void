@@ -1,20 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "WardenHeartRightclickedOnBlock",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "warden_heart_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/com/blue_gamerwolf/sculkvoid/procedures/WardenHeartRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "WardenHeart",
       "type": "item",
       "sortid": 4,
@@ -26,25 +12,13 @@
           "src/main/java/com/blue_gamerwolf/sculkvoid/item/WardenHeartItem.java",
           "src/main/resources/assets/sculk_void/models/item/warden_heart.json"
         ]
-      }
-    },
-    {
-      "name": "Wardenspire",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wardenspire",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sculk_void/worldgen/structure_set/wardenspire.json",
-          "src/main/resources/data/sculk_void/worldgen/structure/wardenspire.json",
-          "src/main/resources/data/sculk_void/worldgen/template_pool/wardenspire.json"
-        ]
-      }
+      },
+      "path": "~/server/items.blocks/items"
     },
     {
       "name": "EchoCaverns",
       "type": "biome",
+      "sortid": 9,
       "compiles": true,
       "locked_code": true,
       "registry_name": "echo_caverns",
@@ -52,11 +26,13 @@
         "files": [
           "src/main/resources/data/sculk_void/worldgen/biome/echo_caverns.json"
         ]
-      }
+      },
+      "path": "~/server/worldgen/biomes"
     },
     {
       "name": "SculkVoid",
       "type": "dimension",
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sculk_void",
@@ -66,7 +42,8 @@
           "src/main/resources/data/sculk_void/dimension_type/sculk_void.json",
           "src/main/resources/data/sculk_void/dimension/sculk_void.json"
         ]
-      }
+      },
+      "path": "~/server/worldgen/diamansions"
     },
     {
       "name": "RawSculkOre",
@@ -80,7 +57,8 @@
           "src/main/java/com/blue_gamerwolf/sculkvoid/item/RawSculkOreItem.java",
           "src/main/resources/assets/sculk_void/models/item/raw_sculk_ore.json"
         ]
-      }
+      },
+      "path": "~/server/items.blocks/items"
     },
     {
       "name": "SculkIngot",
@@ -94,11 +72,13 @@
           "src/main/java/com/blue_gamerwolf/sculkvoid/item/SculkIngotItem.java",
           "src/main/resources/assets/sculk_void/models/item/sculk_ingot.json"
         ]
-      }
+      },
+      "path": "~/server/items.blocks/items"
     },
     {
       "name": "Sculkoresmelt",
       "type": "recipe",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculkoresmelt",
@@ -106,7 +86,8 @@
         "files": [
           "src/main/resources/data/sculk_void/recipes/sculkoresmelt.json"
         ]
-      }
+      },
+      "path": "~/client/recipes"
     },
     {
       "name": "Sculkore",
@@ -125,39 +106,534 @@
           "src/main/resources/assets/sculk_void/blockstates/sculkore.json",
           "src/main/resources/data/sculk_void/worldgen/configured_feature/sculkore.json"
         ]
-      }
+      },
+      "path": "~/server/items.blocks/blocks"
+    },
+    {
+      "name": "Lameland",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lameland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/worldgen/placed_feature/lameland_tree.json",
+          "src/main/resources/data/sculk_void/worldgen/configured_feature/lameland_tree.json",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/world/features/treedecorators/LamelandFruitDecorator.java",
+          "src/main/resources/data/sculk_void/worldgen/biome/lameland.json"
+        ]
+      },
+      "path": "~/server/worldgen/biomes"
+    },
+    {
+      "name": "BlueForest",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blue_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/worldgen/configured_feature/blue_forest_tree.json",
+          "src/main/resources/data/sculk_void/worldgen/biome/blue_forest.json",
+          "src/main/resources/data/sculk_void/worldgen/placed_feature/blue_forest_tree.json",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/world/features/treedecorators/BlueForestFruitDecorator.java"
+        ]
+      },
+      "path": "~/server/worldgen/biomes"
+    },
+    {
+      "name": "Sculknull",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculknull",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/worldgen/biome/sculknull.json",
+          "src/main/resources/data/sculk_void/worldgen/configured_feature/sculknull_tree.json",
+          "src/main/resources/data/sculk_void/worldgen/placed_feature/sculknull_tree.json"
+        ]
+      },
+      "path": "~/server/worldgen/biomes"
+    },
+    {
+      "name": "Sculkwardenheart",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculkwardenheart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/loot_tables/chests/sculkwardenheart.json"
+        ]
+      },
+      "path": "~/server/worldgen/loot tables"
+    },
+    {
+      "name": "Voidsculk",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidsculk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/worldgen/configured_feature/voidsculk.json",
+          "src/main/resources/assets/sculk_void/blockstates/voidsculk.json",
+          "src/main/resources/data/sculk_void/worldgen/placed_feature/voidsculk.json",
+          "src/main/resources/assets/sculk_void/models/item/voidsculk.json",
+          "src/main/resources/assets/sculk_void/models/block/voidsculk.json",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/block/VoidsculkBlock.java",
+          "src/main/resources/data/sculk_void/forge/biome_modifier/voidsculk_biome_modifier.json"
+        ]
+      },
+      "path": "~/server/items.blocks/blocks"
+    },
+    {
+      "name": "SculkInvestedBarrel",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_invested_barrel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/block/SculkInvestedBarrelBlock.java",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/block/entity/SculkInvestedBarrelBlockEntity.java",
+          "src/main/resources/assets/sculk_void/models/item/sculk_invested_barrel.json",
+          "src/main/resources/assets/sculk_void/blockstates/sculk_invested_barrel.json",
+          "src/main/resources/assets/sculk_void/models/block/sculk_invested_barrel.json"
+        ]
+      },
+      "path": "~/server/items.blocks/blocks"
+    },
+    {
+      "name": "SculkInvestedbarrelGUI",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_investedbarrel_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/world/inventory/SculkInvestedbarrelGUIMenu.java",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/client/gui/SculkInvestedbarrelGUIScreen.java"
+        ]
+      },
+      "path": "~/client/guis"
+    },
+    {
+      "name": "SculkInvestedBarrelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_invested_barrel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/recipes/sculk_invested_barrel_recipe.json"
+        ]
+      },
+      "path": "~/client/recipes"
+    },
+    {
+      "name": "Sacurvice",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacurvice",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/procedures/SacurviceProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/server/scripts"
+    },
+    {
+      "name": "TheVoid",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "the_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/advancements/the_void.json"
+        ]
+      },
+      "path": "~/client/advancements"
+    },
+    {
+      "name": "SculkNuke",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_nuke",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk_void/models/block/sculk_nuke.json",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/block/SculkNukeBlock.java",
+          "src/main/resources/assets/sculk_void/blockstates/sculk_nuke.json",
+          "src/main/resources/assets/sculk_void/models/item/sculk_nuke.json"
+        ]
+      },
+      "path": "~/server/items.blocks/blocks"
+    },
+    {
+      "name": "SculkNukeboomboom",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_nukeboomboom",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/procedures/SculkNukeboomboomProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/server/scripts"
+    },
+    {
+      "name": "Sculkness",
+      "type": "enchantment",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculkness",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/enchantment/SculknessEnchantment.java"
+        ]
+      },
+      "path": "~/server/items.blocks/items/enchantments"
+    },
+    {
+      "name": "SculkCreature",
+      "type": "tag",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_creature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/sculk_creature.json"
+        ]
+      },
+      "path": "~/server/worldgen/tags"
+    },
+    {
+      "name": "SkyVampSythe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sky_vamp_sythe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/item/SkyVampSytheItem.java",
+          "src/main/resources/assets/sculk_void/models/item/sky_vamp_sythe.json"
+        ]
+      },
+      "path": "~/server/items.blocks/items"
+    },
+    {
+      "name": "Blood",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/tags/entity_types/blood.json"
+        ]
+      },
+      "path": "~/server/worldgen/tags"
+    },
+    {
+      "name": "Hell",
+      "type": "tag",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/hell.json"
+        ]
+      },
+      "path": "~/server/worldgen/tags"
+    },
+    {
+      "name": "CrimsonDagger",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crimson_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/item/CrimsonDaggerItem.java",
+          "src/main/resources/assets/sculk_void/models/item/crimson_dagger.json"
+        ]
+      },
+      "path": "~/server/items.blocks/items"
+    },
+    {
+      "name": "VoidBow",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "void_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/item/VoidBowItem.java",
+          "src/main/resources/assets/sculk_void/models/item/void_bow.json"
+        ]
+      },
+      "path": "~/server/items.blocks/items"
+    },
+    {
+      "name": "CrystalArrow",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crystal_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/item/CrystalArrowItem.java",
+          "src/main/resources/assets/sculk_void/models/item/crystal_arrow.json"
+        ]
+      },
+      "path": "~/server/items.blocks/items"
+    },
+    {
+      "name": "VoidGod",
+      "type": "enchantment",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "void_god",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/enchantment/VoidGodEnchantment.java"
+        ]
+      },
+      "path": "~/server/items.blocks/items/enchantments"
+    },
+    {
+      "name": "Weaponsgiver",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weaponsgiver",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/procedures/WeaponsgiverProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/server/scripts"
+    },
+    {
+      "name": "Crystalarrowrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crystalarrowrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/recipes/crafting_table.json"
+        ]
+      },
+      "path": "~/client/recipes"
+    },
+    {
+      "name": "SculkGod",
+      "type": "enchantment",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_god",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/enchantment/SculkGodEnchantment.java"
+        ]
+      },
+      "path": "~/server/items.blocks/items/enchantments"
+    },
+    {
+      "name": "BindCompassToAlter",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bind_compass_to_alter",
+      "metadata": {
+        "files": [
+          "src/main/java/com/blue_gamerwolf/sculkvoid/procedures/BindCompassToAlterProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/server/scripts"
+    },
+    {
+      "name": "EndlessVoid",
+      "type": "dimension",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "endless_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk_void/dimension_type/endless_void.json",
+          "src/main/java/com/blue_gamerwolf/sculkvoid/world/dimension/EndlessVoidDimension.java",
+          "src/main/resources/data/sculk_void/dimension/endless_void.json"
+        ]
+      },
+      "path": "~/server/worldgen/diamansions"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sculk_void.raw_sculk_ore": "Raw Sculk Ore",
-      "item.sculk_void.warden_heart": "Warden Heart",
-      "item.sculk_void.sculk_ingot": "Sculk Ingot",
+      "biome.sculk_void.sculknull": "Sculk  Null",
+      "item.sculk_void.crimson_dagger": "Crimson Dagger",
+      "block.sculk_void.voidsculk": "Void Sculk",
+      "biome.sculk_void.blue_forest": "Blue Forest",
+      "advancements.the_void.title": "The Void",
+      "item.sculk_void.crystal_arrow": "Crystal Arrow",
+      "item.sculk_void.void_bow": "Void Bow",
+      "enchantment.sculk_void.void_god": "Void God",
       "block.sculk_void.sculkore": "Sculk Ore",
-      "biome.sculk_void.echo_caverns": "Echo Caverns"
+      "biome.sculk_void.echo_caverns": "Echo Caverns",
+      "item.sculk_void.sky_vamp_sythe": "Sky Vamp Sythe",
+      "item.sculk_void.raw_sculk_ore": "Raw Sculk Ore",
+      "advancements.the_void.descr": "The Void... Birth of the sculk....",
+      "enchantment.sculk_void.sculk_god": "Sculk God",
+      "item.sculk_void.warden_heart": "Warden Heart",
+      "block.sculk_void.sculk_nuke": "Sculk Nuke",
+      "item.sculk_void.sculk_ingot": "Sculk Ingot",
+      "block.sculk_void.sculk_invested_barrel": "Sculk Invested Barrel",
+      "enchantment.sculk_void.sculkness": "Sculkness",
+      "biome.sculk_void.lameland": "Lame land"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "client",
+        "children": [
+          {
+            "name": "advancements",
+            "children": []
+          },
+          {
+            "name": "guis",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "server",
+        "children": [
+          {
+            "name": "items.blocks",
+            "children": [
+              {
+                "name": "items",
+                "children": [
+                  {
+                    "name": "enchantments",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "blocks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "scripts",
+            "children": []
+          },
+          {
+            "name": "projectiles",
+            "children": []
+          },
+          {
+            "name": "worldgen",
+            "children": [
+              {
+                "name": "structures",
+                "children": []
+              },
+              {
+                "name": "biomes",
+                "children": []
+              },
+              {
+                "name": "diamansions",
+                "children": []
+              },
+              {
+                "name": "loot tables",
+                "children": []
+              },
+              {
+                "name": "tags",
+                "children": []
+              },
+              {
+                "name": "plants",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "sculk_void",
     "modName": "Sculk Void",
     "version": "1.0.0",
     "author": "Blue_gamerwolf",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://discord.gg/AtuArqk7Nr",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
-    "dependencies": [],
+    "dependencies": [
+      "forlorncurios"
+    ],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Create",
+    "credits": "Blue_Gamerwolf",
     "modElementsPackage": "com.blue_gamerwolf.sculkvoid",
     "lockBaseModFiles": true
   },

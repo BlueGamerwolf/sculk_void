@@ -1,0 +1,6 @@
+{
+  "parent": "sculk_void:custom/sculk_bow",
+  "textures": {
+    "1": "sculk_void:item/sculk_bow_pulling_0"
+  }
+}

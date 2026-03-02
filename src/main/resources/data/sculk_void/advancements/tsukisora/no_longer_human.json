@@ -1,0 +1,17 @@
+{
+  "parent": "sculk_void:tsukisora/it_hungers",
+  "display": {
+    "icon": { "item": "minecraft:warden_spawn_egg" },
+    "title": { "text": "No Longer Human" },
+    "description": { "text": "The line is crossed." },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "stage4": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

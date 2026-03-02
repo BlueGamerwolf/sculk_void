@@ -1,0 +1,17 @@
+{
+  "parent": "sculk_void:tsukisora/the_binding",
+  "display": {
+    "icon": { "item": "minecraft:sculk" },
+    "title": { "text": "It Hungers" },
+    "description": { "text": "The corruption spreads." },
+    "hidden": true,
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "stage2": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

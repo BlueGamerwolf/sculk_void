@@ -1,0 +1,39 @@
+{
+	"name": "sculk_void:lab/rooms",
+	"fallback": "sculk_void:lab/fallback",
+	"elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/laboratory_testing",
+                "processors": "sculk_void:lab_ruin",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/laboratory_library",
+                "processors": "sculk_void:lab_ruin",
+                "projection": "rigid"
+            }
+        },{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/laboratory_dungeon",
+                "processors": "sculk_void:lab_ruin",
+                "projection": "rigid"
+            }
+         },{
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "sculk_void:lab/rooms/grave",
+                "processors": "sculk_void:lab_ruin",
+                "projection": "rigid"
+            }
+        }
+    ]   
+}

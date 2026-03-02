@@ -1,7 +1,22 @@
 {
-  "item.sculk_void.raw_sculk_ore": "Raw Sculk Ore",
-  "item.sculk_void.warden_heart": "Warden Heart",
-  "item.sculk_void.sculk_ingot": "Sculk Ingot",
+  "biome.sculk_void.sculknull": "Sculk  Null",
+  "item.sculk_void.crimson_dagger": "Crimson Dagger",
+  "block.sculk_void.voidsculk": "Void Sculk",
+  "biome.sculk_void.blue_forest": "Blue Forest",
+  "advancements.the_void.title": "The Void",
+  "item.sculk_void.crystal_arrow": "Crystal Arrow",
+  "item.sculk_void.void_bow": "Void Bow",
+  "enchantment.sculk_void.void_god": "Void God",
   "block.sculk_void.sculkore": "Sculk Ore",
-  "biome.sculk_void.echo_caverns": "Echo Caverns"
+  "biome.sculk_void.echo_caverns": "Echo Caverns",
+  "item.sculk_void.sky_vamp_sythe": "Sky Vamp Sythe",
+  "item.sculk_void.raw_sculk_ore": "Raw Sculk Ore",
+  "advancements.the_void.descr": "The Void... Birth of the sculk....",
+  "enchantment.sculk_void.sculk_god": "Sculk God",
+  "item.sculk_void.warden_heart": "Warden Heart",
+  "block.sculk_void.sculk_nuke": "Sculk Nuke",
+  "item.sculk_void.sculk_ingot": "Sculk Ingot",
+  "block.sculk_void.sculk_invested_barrel": "Sculk Invested Barrel",
+  "enchantment.sculk_void.sculkness": "Sculkness",
+  "biome.sculk_void.lameland": "Lame land"
 }

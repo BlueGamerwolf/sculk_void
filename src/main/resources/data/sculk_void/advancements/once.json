@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "spawned": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "sculk_void:spawn_once"
+  }
+}

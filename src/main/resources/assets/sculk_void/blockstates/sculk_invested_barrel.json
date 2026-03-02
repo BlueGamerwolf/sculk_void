@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sculk_void:block/sculk_invested_barrel"
+    },
+    "facing=east": {
+      "model": "sculk_void:block/sculk_invested_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sculk_void:block/sculk_invested_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sculk_void:block/sculk_invested_barrel",
+      "y": 270
+    }
+  }
+}

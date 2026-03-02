@@ -11,7 +11,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -45,6 +44,8 @@ public class WardenHeartItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(Component.literal("Right click on sculk to teleport"));
+        tooltip.add(Component.literal("Right click on sculk catalyst to return"));
         super.appendHoverText(stack, level, tooltip, flag);
     }
 
@@ -56,7 +57,7 @@ public class WardenHeartItem extends Item {
         if (level.isClientSide) return;
         if (!(entity instanceof Player player)) return;
 
-        if (RandomSource.create().nextFloat() < 0.012f) {
+        if (level.getRandom().nextFloat() < 0.012f) {
             level.playSound(
                     null,
                     player.blockPosition(),
@@ -85,7 +86,7 @@ public class WardenHeartItem extends Item {
         /* =====================================
            RETURN FROM SCULK VOID
            ===================================== */
-        if (serverLevel.dimension() == SCULK_VOID
+        if (serverLevel.dimension().equals(SCULK_VOID)
                 && level.getBlockState(pos).getBlock() == Blocks.SCULK_CATALYST) {
 
             ServerLevel overworld = serverPlayer.server.getLevel(Level.OVERWORLD);
@@ -111,7 +112,7 @@ public class WardenHeartItem extends Item {
         if (level.getBlockState(pos).getBlock() != Blocks.SCULK)
             return InteractionResult.SUCCESS;
 
-        if (serverLevel.dimension() == SCULK_VOID)
+        if (serverLevel.dimension().equals(SCULK_VOID))
             return InteractionResult.SUCCESS;
 
         ServerLevel targetLevel = serverPlayer.server.getLevel(SCULK_VOID);
@@ -144,7 +145,7 @@ public class WardenHeartItem extends Item {
         serverPlayer.teleportTo(
                 targetLevel,
                 0.5,
-                80,
+                79.5,   // <-- fixed to match platform
                 0.5,
                 serverPlayer.getYRot(),
                 serverPlayer.getXRot()

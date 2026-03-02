@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[Sculk Void] Loaded successfully.","color":"dark_aqua"}]

@@ -1,0 +1,15 @@
+{
+  "name": "sculk_void:lab/centers",
+  "fallback": "sculk_void:lab/fallback",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_void:lab/centers/laboratory_center",
+        "processors": "sculk_void:lab_ruin",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

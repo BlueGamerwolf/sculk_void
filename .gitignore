@@ -1,6 +1,9 @@
 .gradle/
 .mcreator/
 .settings/
+.idea/
+.github/
+.vscode/
 bin/
 build/
 elements/

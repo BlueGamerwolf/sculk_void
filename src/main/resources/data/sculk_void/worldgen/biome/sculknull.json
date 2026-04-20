@@ -1,0 +1,104 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": -12434878,
+    "sky_color": -12434878,
+    "water_color": -16777165,
+    "water_fog_color": -13434829,
+    "grass_color": -13421773,
+    "foliage_color": -13421773
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "sheep",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "chicken",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "cow",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:zombie": {
+      "energy_budget": 0.0,
+      "charge": 0.0
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:forest_rock"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:ore_emerald",
+      "sculk_void:voidsculk"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:pointed_dripstone"
+    ],
+    [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_default",
+      "minecraft:patch_tall_grass_2",
+      "sculk_void:sculknull_tree"
+    ],
+    []
+  ]
+}

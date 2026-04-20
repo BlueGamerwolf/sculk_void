@@ -1,0 +1,16 @@
+{
+  "type": "sculk_void:void_assembly",
+  "ingredients": [
+    {
+      "item": "sculk_void:raw_sculk_ore"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "result": {
+    "item": "sculk_void:sculk_ingot",
+    "count": 1
+  },
+  "craft_time": 100
+}

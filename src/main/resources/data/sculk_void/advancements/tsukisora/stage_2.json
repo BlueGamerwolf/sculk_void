@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "sculk_void:void_crossbow"
+    },
+    "title": {
+      "text": "The Hunger Awakens"
+    },
+    "description": {
+      "text": "Something inside you has learned to want."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "stage_2": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "temperature_modifier": "none",
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": -16776449,
+    "sky_color": -16776449,
+    "water_color": -16711115,
+    "water_fog_color": -16513402,
+    "grass_color": -13153075,
+    "foliage_color": -13421451
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "sheep",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "chicken",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "cow",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": [
+  [],                                   
+  [
+    "minecraft:lake_lava_underground"
+  ],
+  [],                                    
+  [
+    "minecraft:amethyst_geode"
+  ],
+  [],                                    
+  [],                                    
+  [
+    "minecraft:ore_coal_upper",
+    "minecraft:ore_coal_lower",
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_iron_middle",
+    "minecraft:ore_iron_small",
+    "minecraft:ore_gold",
+    "minecraft:ore_gold_lower",
+    "minecraft:ore_redstone",
+    "minecraft:ore_redstone_lower",
+    "minecraft:ore_diamond",
+    "minecraft:ore_diamond_large",
+    "minecraft:ore_diamond_buried",
+    "minecraft:ore_lapis",
+    "minecraft:ore_lapis_buried",
+    "minecraft:ore_copper"
+  ],
+  [],
+  [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_default",
+      "minecraft:patch_tall_grass_2",
+      "sculk_void:blue_forest_tree"
+    ],
+  []
+]
+
+}

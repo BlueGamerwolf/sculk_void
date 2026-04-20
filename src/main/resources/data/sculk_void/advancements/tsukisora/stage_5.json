@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "sculk_void:void_crossbow"
+    },
+    "title": {
+      "text": "The Voidstone Abyss"
+    },
+    "description": {
+      "text": "The Void goddess Tsukisora has fully awakened within you."
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "stage_5": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

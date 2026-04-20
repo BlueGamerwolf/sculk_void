@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "u=0,v=0": { "model": "sculk_void:block/null_portal_0_0" },
+    "u=0,v=1": { "model": "sculk_void:block/null_portal_0_1" },
+    "u=0,v=2": { "model": "sculk_void:block/null_portal_0_2" },
+    "u=1,v=0": { "model": "sculk_void:block/null_portal_1_0" },
+    "u=1,v=1": { "model": "sculk_void:block/null_portal_1_1" },
+    "u=1,v=2": { "model": "sculk_void:block/null_portal_1_2" },
+    "u=2,v=0": { "model": "sculk_void:block/null_portal_2_0" },
+    "u=2,v=1": { "model": "sculk_void:block/null_portal_2_1" },
+    "u=2,v=2": { "model": "sculk_void:block/null_portal_2_2" }
+  }
+}

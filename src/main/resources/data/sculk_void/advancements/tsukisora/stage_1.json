@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "sculk_void:void_crossbow"
+    },
+    "title": {
+      "text": "The First Murmur"
+    },
+    "description": {
+      "text": "Darkness stirs within you."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "stage_1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "type": "sculk_void:sculk_void",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:deep_ocean",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              -0.55
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": -1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:ocean",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.55,
+              -0.15
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:warm_ocean",
+          "parameters": {
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.55,
+              -0.15
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sculk_void:echo_caverns",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              -0.85
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sculk_void:blue_forest",
+          "parameters": {
+            "temperature": [
+              -0.6,
+              0.6
+            ],
+            "humidity": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.05,
+              0.7
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "weirdness": [
+              -0.45,
+              0.35
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sculk_void:lameland",
+          "parameters": {
+            "temperature": [
+              -0.6,
+              0.6
+            ],
+            "humidity": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.2,
+              1
+            ],
+            "erosion": [
+              -0.8,
+              0.15
+            ],
+            "weirdness": [
+              0.15,
+              0.65
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sculk_void:sculknull",
+          "parameters": {
+            "temperature": [
+              -0.6,
+              0.6
+            ],
+            "humidity": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.35,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.35
+            ],
+            "weirdness": [
+              0.55,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "settings": "minecraft:overworld"
+  }
+}

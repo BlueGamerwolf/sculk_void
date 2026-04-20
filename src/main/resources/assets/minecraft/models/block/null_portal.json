@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "": "minecraft:block/end_portal"
+  },
+  "render_type": "cutout"
+}

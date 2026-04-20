@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sculk_void:block/void_assembler"
+    },
+    "facing=east": {
+      "model": "sculk_void:block/void_assembler",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sculk_void:block/void_assembler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sculk_void:block/void_assembler",
+      "y": 270
+    }
+  }
+}

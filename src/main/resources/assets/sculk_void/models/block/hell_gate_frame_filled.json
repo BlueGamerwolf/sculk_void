@@ -1,0 +1,9 @@
+{
+  "parent": "sculk_void:custom/hell_gate_frame_filled",
+  "textures": {
+    "0": "sculk_void:block/hell_gate_frame",
+    "1": "sculk_void:block/null_gate_frame_eye",
+    "particle": "sculk_void:block/hell_gate_frame"
+  },
+  "render_type": "cutout"
+}

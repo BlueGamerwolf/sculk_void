@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hell_gate_frame",
+        "1": "null_gate_frame_eye"
+      },
+      "name": "default"
+    }
+  }
+}

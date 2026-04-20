@@ -1,0 +1,16 @@
+.gradle/
+.mcreator/
+.settings/
+.idea/
+.github/
+.vscode/
+bin/
+build/
+elements/
+gradle/
+run/
+.classpath
+docs/
+.codex-temp
+.gradle-user-home
+

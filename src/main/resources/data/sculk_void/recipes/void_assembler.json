@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aca",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "sculk_void:void_assembler",
+    "count": 1
+  }
+}

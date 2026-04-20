@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="sculk_void"
+version="2.2"
+displayName="Sculk Void"
+displayURL="https://discord.gg/AtuArqk7Nr"
+credits="Blue_Gamerwolf"
+authors="Blue_gamerwolf"
+
+[[dependencies.sculk_void]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sculk_void]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sculk_void]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"

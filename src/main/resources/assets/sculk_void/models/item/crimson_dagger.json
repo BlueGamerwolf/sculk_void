@@ -1,0 +1,7 @@
+{
+  "parent": "sculk_void:custom/crimson_dagger",
+  "textures": {
+    "0": "sculk_void:block/crimson_dagger",
+    "particle": "sculk_void:item/crimson_dagger"
+  }
+}

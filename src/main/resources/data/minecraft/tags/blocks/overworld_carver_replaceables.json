@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:sculk",
+    "minecraft:grass_block",
+    "minecraft:rooted_dirt",
+    "minecraft:mycelium",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "sculk_void:item/void_bow_pulling_2"
+  }
+}

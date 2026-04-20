@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sculk_void:block/sculk",
+    "up": "sculk_void:block/sculk",
+    "north": "sculk_void:block/sculk",
+    "east": "sculk_void:block/sculk",
+    "south": "sculk_void:block/sculk",
+    "west": "sculk_void:block/sculk",
+    "particle": "sculk_void:block/sculk"
+  },
+  "render_type": "solid"
+}

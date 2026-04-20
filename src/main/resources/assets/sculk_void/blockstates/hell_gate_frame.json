@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "eye=false,facing=east": {
+      "model": "sculk_void:block/hell_gate_frame",
+      "y": 270
+    },
+    "eye=false,facing=north": {
+      "model": "sculk_void:block/hell_gate_frame",
+      "y": 180
+    },
+    "eye=false,facing=south": {
+      "model": "sculk_void:block/hell_gate_frame"
+    },
+    "eye=false,facing=west": {
+      "model": "sculk_void:block/hell_gate_frame",
+      "y": 90
+    },
+    "eye=true,facing=east": {
+      "model": "sculk_void:block/hell_gate_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north": {
+      "model": "sculk_void:block/hell_gate_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south": {
+      "model": "sculk_void:block/hell_gate_frame_filled"
+    },
+    "eye=true,facing=west": {
+      "model": "sculk_void:block/hell_gate_frame_filled",
+      "y": 90
+    }
+  }
+}

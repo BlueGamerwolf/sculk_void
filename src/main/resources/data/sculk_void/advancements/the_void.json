@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "the_void": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structures": [
+            "minecraft:ancient_city"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  }
+}
